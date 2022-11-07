@@ -14,3 +14,6 @@ I collected comments from the top 1000 posts on the MechanicalKeyboards subreddi
 | Boba    | -0.06190476 (Negative) | 98.8  | 42       |
 | Gecko   | 0.0 (Neutral)          | 6.2   | 19       |
 | Gateron | 1.0 (Positive)         | 104.2 | 3        |
+
+# Sidenotes
+The app doesn't actually do anything. I simply couldn't figure out how to get combine publishers working on a swift command line package and didn't want to spend all afternoon figuring it out. When you run the app it simply logs the results to the console. Be warned there is a 2 second per request cool down, and that applies to each comment because I couldn't figure out how to work the Reddit API properly. It takes about an hour to run for 1000 posts on the MechanicalKeyboards sub, since it's not *that* active.
